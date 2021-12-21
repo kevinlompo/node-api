@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./layout.css" />
+  </head>
+  <body>
+    <h1>TODO APP</h1>
+    <div id="root">
+      <ul id="list-root"></ul>
+      <div>
+        <div>
+          <label for="new-item-id">Id</label>
+          <input type="number" min="1" id="new-item-id" />
+        </div>
+        <div>
+          <label for="new-item-id">Description</label>
+          <input type="text" id="new-item-description" />
+        </div>
+        <div><button onclick="addNewItem()">Add</button></div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
